@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- assists search engine -->
+	<meta name="description" content="percentage calculator">
+	<!-- viewport to support tablets, cell phone or monitor & scale is for zoom capabilites -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tip Calculator</title>
+	<link rel="stylesheet" type="text/css" href="tipCalc.css">
+	<!-- CDN link to JQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+	<h1> <span id="perc">Tip</span> calculator</h1>
+	<form id="calculator">
+		<p>Bill Amount: <input id="amount" /></p>
+		<p>Percentage Tip <input id="percentage" /></p>
+		<!-- disabled means that user cannot type in this input box-->
+		<p>Tip Amount: <input id="tip" disabled="disabled"/></p>
+		<p>Total: <input id="total" disabled="disabled" /></p>
+		<p><input id="addup" type="submit" value="Calculate" />
+		</p>
+	</form>		
+
+	<script src="tipCalc.js"></script>
+
+	</body>
+</html>
